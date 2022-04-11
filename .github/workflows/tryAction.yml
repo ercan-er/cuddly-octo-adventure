@@ -38,14 +38,14 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 -b fight
+      - uses: actions/checkout@v3
       - name: Custom Step!
         run: echo Custom step running!!
   jobs2: 
       needs: jobs1
       runs-on: ubuntu-latest
       steps:
-          - uses: actions/checkout@v3 -b fight
+          - uses: actions/checkout@v3
           - name: Custom Step Jobs 2!
             run: echo Custom step 2 running!!
  
