@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Second Step inside One,
           echo Second Step last one.
+jobs2: 
+  needs: jobs
+  steps:
+  - uses: actions/checkout -b fight
+  - name: Custom Step!
+  run: echo Custom step running!!
