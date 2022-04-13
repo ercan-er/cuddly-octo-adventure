@@ -1,0 +1,26 @@
+{
+  "name": "cuddly-octo-adventure",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ercan-er/cuddly-octo-adventure.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Ercan Er",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ercan-er/cuddly-octo-adventure/issues"
+  },
+  "homepage": "https://github.com/ercan-er/cuddly-octo-adventure#readme",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "jest-junit": "^13.1.0"
+  }
+}

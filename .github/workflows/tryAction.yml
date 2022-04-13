@@ -50,3 +50,8 @@ jobs:
             run: echo Custom step 2 running!!
  
 
+  - name: Archive test results
+         uses: actions/upload-artifact@v2
+          with:
+            name: test-result-jest
+            path: report/

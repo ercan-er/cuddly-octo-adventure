@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="1" errors="0" time="6.332">
+  <testsuite name="Test Suite Which Contains Success" errors="0" failures="0" skipped="0" timestamp="2022-04-13T08:42:52" time="0.465" tests="1">
+    <testcase classname="Test Suite Which Contains Success Test Will Be Pass" name="Test Suite Which Contains Success Test Will Be Pass" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Suite Which Contains Skipped &amp; Timeout" errors="0" failures="1" skipped="1" timestamp="2022-04-13T08:42:52" time="5.493" tests="2">
+    <testcase classname="Test Suite Which Contains Skipped &amp; Timeout Test Will Skipped" name="Test Suite Which Contains Skipped &amp; Timeout Test Will Skipped" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Test Suite Which Contains Skipped &amp; Timeout Test Will Timeout" name="Test Suite Which Contains Skipped &amp; Timeout Test Will Timeout" time="5.002">
+      <failure>Error: thrown: &quot;Exceeded timeout of 5000 ms for a test.
+Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.&quot;
+    at /Users/ercaner/cuddly-octo-adventure/test/exampleTwo.test.js:9:5
+    at _dispatchDescribe (/Users/ercaner/cuddly-octo-adventure/node_modules/jest-circus/build/index.js:98:26)
+    at describe (/Users/ercaner/cuddly-octo-adventure/node_modules/jest-circus/build/index.js:60:5)
+    at Object.&lt;anonymous&gt; (/Users/ercaner/cuddly-octo-adventure/test/exampleTwo.test.js:1:63)
+    at Runtime._execModule (/Users/ercaner/cuddly-octo-adventure/node_modules/jest-runtime/build/index.js:1646:24)
+    at Runtime._loadModule (/Users/ercaner/cuddly-octo-adventure/node_modules/jest-runtime/build/index.js:1185:12)
+    at Runtime.requireModule (/Users/ercaner/cuddly-octo-adventure/node_modules/jest-runtime/build/index.js:1009:12)
+    at jestAdapter (/Users/ercaner/cuddly-octo-adventure/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runTestInternal (/Users/ercaner/cuddly-octo-adventure/node_modules/jest-runner/build/runTest.js:389:16)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
