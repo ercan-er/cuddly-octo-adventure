@@ -41,6 +41,11 @@ jobs:
       - uses: actions/checkout@v3
       - name: Custom Step!
         run: echo Custom step running!!
+      - name: Archive test results
+      - uses: actions/upload-artifact@v2
+        with:
+            name: test-result-jest
+            path: report/
   jobs2: 
       needs: jobs1
       runs-on: ubuntu-latest
@@ -48,10 +53,3 @@ jobs:
           - uses: actions/checkout@v3
           - name: Custom Step Jobs 2!
             run: echo Custom step 2 running!!
- 
-
-  - name: Archive test results
-         uses: actions/upload-artifact@v2
-          with:
-            name: test-result-jest
-            path: report/
