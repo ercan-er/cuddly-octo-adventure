@@ -4,15 +4,20 @@ describe('Test Suite Which Contains Success', () => {
         expect(true).toEqual(true);
     });
     
-       it('Test Will Be Secon Pass', () => {
+       it('Test Will Be Second Pass', () => {
         expect(true).toEqual(true);
     });
     
-     it('Test Will Be Secon Pass', () => {
+     it('Test Will Be Second Pass', () => {
         expect(false).toEqual(true);
     });
     
-     it('Test Will Be Secon Pass', () => {
+     it('Test Will Be Second Pass', () => {
+        expect(false).toEqual(true);
+    });
+    
+     
+     it('Test Will Be Second Pass', () => {
         expect(false).toEqual(true);
     });
     
